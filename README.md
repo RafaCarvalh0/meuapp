@@ -92,10 +92,12 @@ Após a instalação, você pode iniciar o servidor de desenvolvimento.
 3.  Abra seu navegador e acesse [http://127.0.0.1:8000](http://127.0.0.1:8000) para ver a aplicação.
 
 **Exemplo de login:**
-```bash
+    ```bash
     php artisan tinker
-```
-* ```App\Models\User::create(['name' => 'Seu Nome', 'email' => 'email@exemplo.com', 'password' => bcrypt('senha')])```
+    ```
+    ```bash
+    App\Models\User::create(['name' => 'Seu Nome', 'email' => 'email@exemplo.com', 'password' => bcrypt('senha')])
+    ```
 * **Usuário:** `email@exemplo.com`
 * **Senha:** `senha`
 
